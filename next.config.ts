@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
+import typography from '@tailwindcss/typography';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  plugins: [typography],
 };
 
 export default nextConfig;
